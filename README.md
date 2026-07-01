@@ -1,71 +1,45 @@
-My name is Michael Trosper
+# Hi, I'm Michael Trosper
 
-Senior Computer Science & Software Engineering student at Idaho State University, with a background in military leadership, audio technology, and full-stack development.
+**Systems-Oriented Software Engineer | Researcher | USMC Veteran**
 
+I am a software engineer focused on bridging the gap between low-level system architecture, complex computational theory, and applied infrastructure. With a background as a United States Marine Corps Operations Chief, I bring a hyper-disciplined, zero-fail approach to engineering secure architectures, managing memory environments, and automating massive operational workflows.
 
-🔬 Current Research — SARE Grant Project 2026
+Whether I am writing C++ engine loops, mathematically modeling physical water-energy infrastructure, or building native mobile suites, I focus on algorithmic efficiency, clean architecture, and extreme ownership of the deployment pipeline.
 
-I'm part of a grant-funded research initiative through SARE (Sustainable Agriculture Research & Education), this year focused on Water and Energy Systems.
+---
 
-My specific research explores how Computational Theory can be applied to complex water-energy system problems — either by finding faster solutions or by reducing them to more tractable, understandable forms. The goal is to take hard, real-world infrastructure problems and find computational analogs that unlock new ways to model and solve them.
+### 🚀 Featured Engineering & Architecture
 
-These models are being developed for two distinct audiences:
+#### 📱 Native Android & Productivity Ecosystem
+* **Student Productivity Suite:** A comprehensive native Android application built in Kotlin. Engineered to optimize academic workflows, it features automated OCR-driven PDF scanning with Room database persistence, an integrated Canvas API client for live assignment tracking, and scheduled notification receivers. 
 
+#### 🧮 The Redux Algorithmic Engine & SARE 2026
+* **Core Backend:** A highly scalable Node.js/C# backend executing complex computational theory (Max-Flow Min-Cut, 0/1 Knapsack, Convex Hull). It integrates EPANET formulas to mathematically model real-world fluid dynamics.
+* **Dual-Purpose Interfaces:** The engine's modular architecture simultaneously powers the **SARE 2026** academic research dashboard (optimizing agricultural pump scheduling) and **Redux_GUI**, an interactive frontend allowing K-12 students to visually discover $P$ vs $NP$ complexity classes.
 
-Professional & Higher Education — rigorous tools for researchers, engineers, and graduate-level coursework
-K–12 Interactive Education — accessible, engaging interfaces that make computational thinking visible and intuitive for younger learners
+#### 🌌 Independent Game Development (StarReach)
+* **Space Combat Simulator:** An independent sci-fi game project built natively in C/C++ and Lua. Features complex object-oriented game loop logic, faction-based mechanics, and top-down asset integration, showcasing deep system reverse-engineering and manual memory management.
 
+#### ⚙️ Data Pipelines & API Middleware
+* **Job Search API:** An asynchronously driven FastAPI application connecting to live Adzuna labor market engines to compute quantitative business insights and extract qualitative skill metrics in real-time.
+* **OCR Database Automation:** Developed custom Python/C# integration scripts bridging Optical Character Recognition (OCR) engines with Microsoft Access, automatically parsing unstructured physical form data into structured tables.
 
+---
 
-🛠️ Redux — Computational Theory Library
+### 🛠️ Technical Arsenal
 
-I contribute to Redux, a Computational Theory library developed at Idaho State University, working across the full stack:
+**Languages & Core Logic:**
+C | C++ | C# | Kotlin | Python | Java | TypeScript/JavaScript | Lua | SQL
 
+**Infrastructure, Systems & Security:**
+Linux (Ubuntu) | AWS | Docker | CI/CD (GitHub Actions) | Memory Management | Packet Analysis (Wireshark) | Secure Data/PII Routing
 
-Frontend — JavaScript UI that makes abstract computational models interactive and visual
-Backend — C# / .NET architecture powering the library's core logic, APIs, and data layer
+**Frameworks & Environments:**
+Node.js | FastAPI | Android SDK | RoomDB | Retrofit | CameraX
 
+---
 
-Redux serves as the technical backbone for the SARE research work, and I'm helping shape both how it's built and how it's used in educational contexts.
+### 📈 Operational Philosophy
+*"Translated high-level strategic directives into actionable execution under high-pressure conditions."* My transition from military operations and classified data compliance into software engineering means I build systems with defense-in-depth in mind. From vulnerability research and low-level reverse-engineering to securing cloud access protocols, I treat software architecture as an operational theater: it must be secure, scalable, and relentlessly efficient.
 
-
-💼 Experience
-
-Freelance Software Engineer (Oct 2020 – Present)
-Lua-based game mechanics development — modifying and extending video game systems with custom scripting.
-
-Software Developer — Contour Audio (Aug 2017 – Present)
-Built custom tools and programs in Java, Python, KSP, and more to improve workflow, performance, and client experience. Developed proprietary audio technologies including real-time legato and trill playback, audio phase alignment, articulation management systems, and audio morphing engines.
-
-U.S. Marine Corps (Oct 2016 – Sep 2020)
-
-
-Operations Chief — Led and managed a 50+ person unit, overseeing physical fitness, certifications, training, and readiness. Translated leadership plans into executable frameworks.
-Administration Instructor — Trained personnel in document routing, database management, inter-organizational communication, and secure handling of classified and PII materials.
-
-
-
-🧰 Tech Stack
-
-Languages: Java · Python · C · C# · JavaScript · HTML · CSS · Lua · KSP
-
-Frameworks & Tools: .NET Core · .NET Framework · Node.js · REST APIs · Blockchain · MySQL · Tomcat · Salesforce · JSP · Gson · JSON · Git
-
-Concepts: OOP · Design Patterns · Multithreading · Web Sockets · Servlets · O-notation · Agile
-
-Environments: VS Code · IntelliJ · PyCharm
-
-
-🎓 Education
-
-Idaho State University — B.S. Computer Science & Software Engineering (Senior, In Progress) (3.9 GPA)
-
-Grossmont College — A.S. Computer Science (4.0 GPA)
-Focus: Java, Data Structures, SQL, Blockchain, Database Design
-
-Pearland High School — Diploma (3.95 GPA)
-
-
-📬 Get in Touch
-
-Feel free to reach out if you're interested in computational theory, educational software, audio tech, or just want to connect.
+📫 **Let's connect:** https://www.linkedin.com/in/michael-trosper-634258237/
