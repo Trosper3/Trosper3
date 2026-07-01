@@ -2,9 +2,9 @@
 
 **Systems-Oriented Software Engineer | Researcher | USMC Veteran**
 
-I am a software engineer focused on bridging the gap between low-level system architecture, complex computational theory, and applied infrastructure. With a background as a United States Marine Corps Operations Chief, I bring a hyper-disciplined, zero-fail approach to engineering secure architectures, managing memory environments, and automating massive operational workflows.
+I am a software engineer focused on bridging the gap between low-level system architecture, complex computational theory, and applied infrastructure. With a background as a United States Marine, I bring a disciplined, low-fail approach to engineering secure architectures, managing memory environments, and automating massive operational workflows.
 
-Whether I am writing C++ engine loops, mathematically modeling physical water-energy infrastructure, or building native mobile suites, I focus on algorithmic efficiency, clean architecture, and extreme ownership of the deployment pipeline.
+Whether I am writing C++ engine loops, mathematically modeling physical water-energy infrastructure, or building native mobile suites, I focus on algorithmic efficiency, clean architecture, and high ownership of the deployment pipeline.
 
 ---
 
@@ -18,7 +18,7 @@ Whether I am writing C++ engine loops, mathematically modeling physical water-en
 * **Dual-Purpose Interfaces:** The engine's modular architecture simultaneously powers the **SARE 2026** academic research dashboard (optimizing agricultural pump scheduling) and **Redux_GUI**, an interactive frontend allowing K-12 students to visually discover $P$ vs $NP$ complexity classes.
 
 #### 🌌 Independent Game Development (StarReach)
-* **Space Combat Simulator:** An independent sci-fi game project built natively in C/C++ and Lua. Features complex object-oriented game loop logic, faction-based mechanics, and top-down asset integration, showcasing deep system reverse-engineering and manual memory management.
+* **Space Combat / Exploration Simulator:** An independent sci-fi game project built natively in C/C++ and Lua. Features complex object-oriented game loop logic, faction-based mechanics, and top-down asset integration, showcasing deep system reverse-engineering and manual memory management.
 
 #### ⚙️ Data Pipelines & API Middleware
 * **Job Search API:** An asynchronously driven FastAPI application connecting to live Adzuna labor market engines to compute quantitative business insights and extract qualitative skill metrics in real-time.
