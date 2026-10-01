@@ -21,8 +21,8 @@ An interactive platform for canonical CS problems, solvers, verifiers, and reduc
 A research visualization lab that models agricultural water allocation as a chain of reductions: max-flow/min-cut on the pipe network, branch-and-bound farm selection with an FPTAS fallback, and NP-Hard scheduling through graph coloring, bin packing, and job-shop. Linked views re-solve every phase live when a pipe changes. The project also includes animated walkthroughs of automata, SAT, TSP, knapsack, convex hull, and more.
 * **Stack:** Python, FastAPI, Pydantic, pytest, an optional C++ solver bound with pybind11, and a React/TypeScript/Vite frontend. The pump scheduling work was ported into mainline Redux.
 
-#### Star Reach: Top-Down Space Game (Solo)
-An independent game in C++20 with modular ship engineering, localized hardpoint damage, a multi-tier economy, and ten factions with distinct behaviors.
+#### Star Reach: Top-Down Space Game (Solo, In Development)
+An independent game in C++20, currently in active development. Planned features include modular ship engineering, localized hardpoint damage, a three-tier macro economy, and ten factions with distinct visual styles and behaviors.
 * **Stack:** CMake presets, vcpkg, raylib, EnTT (ECS), nlohmann/json, and Catch2 unit and integration tests.
 * **Engineering:** About 50k lines of C++ across 165 commits, with GitHub Actions running clang-format, clang-tidy, a matrix build, and custom structural checks that enforce layer boundaries and size limits.
 * **Earlier prototype:** A previous version used Box2D physics, Dear ImGui, a seeded procedural galaxy, and ENet LAN multiplayer with client-side prediction.
