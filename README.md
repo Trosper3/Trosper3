@@ -35,7 +35,7 @@ Contributor to *United War*, a total overhaul mod on the Steam Workshop.
 
 #### Applied Projects
 * **Job Search API (Python, FastAPI, httpx, Docker):** An async middleware service on the live Adzuna labor market API that computes salary statistics and extracts trending technical skills from job descriptions. CI enforces an 80% test coverage gate.
-* **Student Productivity App (Kotlin, Android):** A native Android app with Room persistence, Canvas LMS assignment sync through Retrofit, CameraX and ML Kit OCR that turns scanned PDFs into assignments, lecture transcript search, and due-date notifications.
+* **Student Productivity App (Kotlin, Android):** A native Android app for managing coursework, built with a two-person team. I built the CameraX document scanner and PDF system, the ML Kit OCR pipeline that turns scanned pages into assignments, the interactive campus map, the video lecture tool with transcript search, and the home page. I also led the full refactor into a feature-based MVVM structure and added due-date notifications and a light/dark theme. The app also uses Room with Flow/LiveData, Coroutines, and Canvas LMS sync through Retrofit.
 * **Workforce Ops App (in progress):** A security-focused, multi-tenant scheduling platform with RBAC and a tamper-evident audit log. The backend uses FastAPI, SQLAlchemy, Alembic, and MySQL in Docker. The project runs on protected branches, required reviews, written decision records, and full CI/CD on both repos.
 * **WiFi Device Scanner (C#, SharpPcap):** A network monitor that scans the local network every minute and flags devices that are not on a MAC allowlist.
 
@@ -47,10 +47,13 @@ Contributor to *United War*, a total overhaul mod on the Steam Workshop.
 C# | C++ | Python | TypeScript/JavaScript | Kotlin | Lua | C | Java | SQL | HTML/CSS
 
 **Backend & Data:**
-ASP.NET Core | FastAPI | Pydantic | SQLAlchemy | Alembic | MySQL | Room | REST API design | Swagger/OpenAPI
+ASP.NET Core | FastAPI | Pydantic | SQLAlchemy | Alembic | MySQL | REST API design | Swagger/OpenAPI
 
 **Frontend:**
 Next.js | React | Material UI | D3 | dnd-kit | Vite
+
+**Mobile:**
+Android SDK | Jetpack Compose | Room | Retrofit | CameraX | ML Kit | Coroutines/Flow | Gradle
 
 **Systems & Games:**
 CMake | vcpkg | raylib | EnTT | Box2D | ENet | Dear ImGui | pybind11 | ANTLR4 | MSVC
