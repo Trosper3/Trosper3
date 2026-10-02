@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="160" viewBox="0 0 960 160" role="img" aria-labelledby="title">
+  <title id="title">Hi, I'm Michael Trosper. Software Engineer · Computer Science at Idaho State University · USMC Veteran</title>
+  <style>
+    /* GitHub shows README images through its image proxy, so this stays plain SVG + CSS:
+       no scripts, no web fonts, no external files. Colors are mid-tones that read on both
+       GitHub's light and dark themes. Every element's resting state is its final state, so
+       with animation turned off (reduced motion) the header simply appears complete. */
+    text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+
+    .name { font-size: 46px; font-weight: 700; fill: #2F81F7;
+            animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+    .name .hi { fill: #7D8590; }
+
+    .rule { stroke: #2F81F7; stroke-width: 3; stroke-linecap: round;
+            stroke-dasharray: 420; stroke-dashoffset: 0;
+            animation: draw 0.8s ease-out 0.5s both; }
+
+    .sub { font-size: 19px; font-weight: 600; fill: #7D8590;
+           animation: slide 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) 0.8s both; }
+    .sub .dot { fill: #2F81F7; }
+    .sub .p1 { animation: fade 0.6s ease-out 0.9s both; }
+    .sub .p2 { animation: fade 0.6s ease-out 1.25s both; }
+    .sub .p3 { animation: fade 0.6s ease-out 1.6s both; }
+    .sub .p4 { animation: fade 0.6s ease-out 1.95s both; }
+    .sub .p5 { animation: fade 0.6s ease-out 2.3s both; }
+
+    @keyframes rise  { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+    @keyframes slide { from { transform: translateX(-14px); } to { transform: none; } }
+    @keyframes fade  { from { fill-opacity: 0; } to { fill-opacity: 1; } }
+    @keyframes draw  { from { stroke-dashoffset: 420; } to { stroke-dashoffset: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+
+  <text class="name" x="480" y="66" text-anchor="middle"><tspan class="hi">Hi, I'm </tspan>Michael Trosper</text>
+
+  <line class="rule" x1="270" y1="90" x2="690" y2="90"/>
+
+  <text class="sub" x="480" y="128" text-anchor="middle"><tspan class="p1">Software Engineer</tspan><tspan class="p2 dot">  ·  </tspan><tspan class="p3">Computer Science at Idaho State University</tspan><tspan class="p4 dot">  ·  </tspan><tspan class="p5">USMC Veteran</tspan></text>
+</svg>
