@@ -10,31 +10,31 @@ My work spans C# web APIs, Python services, React/Next.js frontends, native C++ 
 
 ### Featured Work
 
-#### Redux: Computational Theory Knowledgebase (Idaho State University)
+`#### Redux: Computational Theory Knowledgebase (Idaho State University)`
 An interactive platform for canonical CS problems, solvers, verifiers, and reductions, built around Karp's 21 NP-Complete problems and extending into P, NP-Hard, and quantum classes. I am one of the most active contributors across the team's repositories.
 * **Backend (C#, ASP.NET Core, .NET 10):** Top committer by identity. Added DFA/NFA acceptance, Min-Cut (Stoer-Wagner), Min s-t Cut (Edmonds-Karp), and two NP-Hard pump scheduling problems along with NP-Hard support in the catalog. Built the problem/reduction tagging taxonomy, a weighted shortest-path reduction finder, a health endpoint, and structured 400 errors with regex timeouts. Primary author of the backend test suite, and added the CI format-check gate.
 * **Official Frontend (Next.js, React, MUI, D3):** Top committer. Built faceted browse filters, complexity and solver tags, centralized theming and dark mode, weighted graph edge labels, automata table visualizations, contributor stat popups, keyboard accessibility, and fixes for a ReDoS-prone regex and npm audit findings.
 * **Interactive Frontend (Next.js, React, d3-force, dnd-kit, Playwright):** Sole author of a redesigned frontend: a searchable faceted catalog, problem pages with reorderable sections, live solver and verifier runs through an API proxy, step-by-step playback, drag-to-edit visualizations, a reduction network graph, and shareable course playlists.
 * **SPADE (C#, ANTLR4):** Extended the discrete math parsing language that Redux uses for problem instances, adding multisets, a one-pass instance scanner, order-independent set hashing, type-check constraints, and a test project.
 
-#### SARE 2026: Water Allocation Research Lab
+`#### SARE 2026: Water Allocation Research Lab`
 A research visualization lab that models agricultural water allocation as a chain of reductions: max-flow/min-cut on the pipe network, branch-and-bound farm selection with an FPTAS fallback, and NP-Hard scheduling through graph coloring, bin packing, and job-shop. Linked views re-solve every phase live when a pipe changes. The project also includes animated walkthroughs of automata, SAT, TSP, knapsack, convex hull, and more.
 * **Stack:** Python, FastAPI, Pydantic, pytest, an optional C++ solver bound with pybind11, and a React/TypeScript/Vite frontend. The pump scheduling work was ported into mainline Redux.
 
-#### Star Reach: Top-Down Space Game (Solo, In Development)
+`#### Star Reach: Top-Down Space Game (In Development)`
 An independent game in C++20, currently in active development. Planned features include modular ship engineering, localized hardpoint damage, a three-tier macro economy, and ten factions with distinct visual styles and behaviors.
 * **Stack:** CMake presets, vcpkg, raylib, EnTT (ECS), nlohmann/json, and Catch2 unit and integration tests.
 * **Engineering:** About 50k lines of C++ across 165 commits, with GitHub Actions running clang-format, clang-tidy, a matrix build, and custom structural checks that enforce layer boundaries and size limits.
 * **Earlier prototype:** A previous version used Box2D physics, Dear ImGui, a seeded procedural galaxy, and ENet LAN multiplayer with client-side prediction.
 
-#### Workforce Operations App (Two-Person Team, In Development)
+`#### Workforce Operations App (In Development)`
 A secure, multi-company web application for employee scheduling paired with a security study. Security is designed in from the start: every feature is specified in writing, backed by a STRIDE threat model, and tied to tests before its code is written.
 * **Planned core features:** company, department, and team management with reporting lines; schedules and shifts with double-booking and time-off conflict checks; time-off requests with multi-manager approval and automatic escalation to the nearest shared manager; and demo data built to expose any leak between companies.
 * **Planned next features:** shift coverage and swaps, draft-and-publish schedules, shift tasks with secure photo uploads, announcements, notifications, company branding settings, an audit log viewer with verification, and a security page with pattern-based detection.
 * **Security design:** tenant isolation enforced at four independent layers; scoped role-based permissions that are deny-by-default and follow the reporting chain; Argon2id password hashing with server-side sessions, CSRF protection, and lockouts; and a tamper-evident audit log with hash-chained, signed entries.
 * **Stack and process:** FastAPI, Python 3.13, SQLAlchemy, Alembic, and MySQL 8.4 in Docker on the backend, with a plain HTML/CSS/JavaScript frontend checked by ESLint, Stylelint, and Vitest. Both repositories run on protected branches, required reviews, 30+ written decision records, Dependabot, and full CI/CD.
 
-#### Applied Projects
+`#### Applied Projects`
 * **Job Search API (Python, FastAPI, httpx, Docker):** An async middleware service on the live Adzuna labor market API that computes salary statistics and extracts trending technical skills from job descriptions. CI enforces an 80% test coverage gate.
 * **Student Productivity App (Kotlin, Android):** A native Android app for managing coursework, built with a two-person team. I built the CameraX document scanner and PDF system, the ML Kit OCR pipeline that turns scanned pages into assignments, the interactive campus map, the video lecture tool with transcript search, and the home page. I also led the full refactor into a feature-based MVVM structure and added due-date notifications and a light/dark theme. The app also uses Room with Flow/LiveData, Coroutines, and Canvas LMS sync through Retrofit.
 * **OCR Database Automation (Python, C#, Microsoft Access):** Custom integration scripts that connect Optical Character Recognition (OCR) engines to Microsoft Access, automatically parsing unstructured physical form data into structured tables.
@@ -42,7 +42,7 @@ A secure, multi-company web application for employee scheduling paired with a se
 
 ---
 
-### Game Modding (Battlezone: Combat Commander)
+`### Game Modding (Battlezone: Combat Commander)`
 Contributor to *United War*, a total overhaul mod for Battlezone: Combat Commander on the Steam Workshop.
 * **mtcampaign.dll (C++17, BZCC mission SDK):** A mission DLL that wraps the stock Lua mission runtime to add branching campaigns: per-pilot save tracking, outcomes that persist across missions, generated campaign menus with mission locks, non-destructive campaign resets, and support for several mods side by side.
 * **Lua mission scripting:** Wrote a reusable mission module library (ambush waves, cutscene cameras, dropships, escorts, guard groups, objectives) and the multi-phase mission *Operation: Shard*, plus a "War Room" campaign timeline and achievements screen.
@@ -73,6 +73,6 @@ xUnit | pytest | Playwright | Catch2 | Vitest | GitHub Actions | Docker | CodeQL
 ---
 
 ### Operational Philosophy
-*"Translated high-level strategic directives into actionable execution under high-pressure conditions."* My transition from military operations and classified data compliance into software engineering means I build systems with defense in depth in mind. I treat every codebase like an operation: plan it, gate it, test it, and own it all the way through deployment.
+*"Translated high-level strategic directives into actionable execution under high-pressure conditions."* My transition from military operations and data compliance into software engineering means I build systems with defense in depth in mind. I treat every codebase like an operation: plan it, gate it, test it, and own it all the way through deployment.
 
-**Let's connect:** https://www.linkedin.com/in/michael-trosper-634258237/
+**Connect With Me:** https://www.linkedin.com/in/michael-trosper-634258237/
