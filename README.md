@@ -1,6 +1,6 @@
-# Hi, I'm Michael Trosper
-
-**Software Engineer | Computer Science at Idaho State University | USMC Veteran**
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="Hi, I'm Michael Trosper. Software Engineer · Computer Science at Idaho State University · USMC Veteran">
+</p>
 
 I build systems that turn hard computational theory into tools people can actually use, and I care about the engineering around the code just as much as the code itself: tests, CI gates, containerized deploys, and secure input handling. With a background as a United States Marine, I bring a disciplined, high-ownership approach to every project, from team research platforms to solo game engines.
 
