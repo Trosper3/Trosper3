@@ -2,22 +2,22 @@
   <title id="title">Hi, I'm Michael Trosper. Software Engineer · Computer Science at Idaho State University · USMC Veteran</title>
   <style>
     /* GitHub shows README images through its image proxy, so this stays plain SVG + CSS:
-       no scripts, no web fonts, no external files. Colors are mid-tones that read on both
+       no scripts, no web fonts, no external files. The grey is a mid-tone that reads on both
        GitHub's light and dark themes. Every element's resting state is its final state, so
        with animation turned off (reduced motion) the header simply appears complete. */
     text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
 
-    .name { font-size: 46px; font-weight: 700; fill: #2F81F7;
+    .name { font-size: 46px; font-weight: 700; fill: #7D8590;
             animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
     .name .hi { fill: #7D8590; }
 
-    .rule { stroke: #2F81F7; stroke-width: 3; stroke-linecap: round;
+    .rule { stroke: #7D8590; stroke-width: 3; stroke-linecap: round;
             stroke-dasharray: 420; stroke-dashoffset: 0;
             animation: draw 0.8s ease-out 0.5s both; }
 
     .sub { font-size: 19px; font-weight: 600; fill: #7D8590;
            animation: slide 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) 0.8s both; }
-    .sub .dot { fill: #2F81F7; }
+    .sub .dot { fill: #7D8590; }
     .sub .p1 { animation: fade 0.6s ease-out 0.9s both; }
     .sub .p2 { animation: fade 0.6s ease-out 1.25s both; }
     .sub .p3 { animation: fade 0.6s ease-out 1.6s both; }
